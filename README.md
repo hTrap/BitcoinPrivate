@@ -24,6 +24,9 @@ Install
 ./zcutil/build.sh -j$(nproc)
 # fetch key
 ./zcutil/fetch-params.sh
+# Add Configuration File
+mkdir ~/.btcprivate/
+touch ~/.btcprivate/btcprivate.conf
 # Run
 ./src/zcashd
 ```
